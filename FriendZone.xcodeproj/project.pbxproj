@@ -17,6 +17,9 @@
 		1A8FF3A8220DF2F900D85871 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8FF3A7220DF2F900D85871 /* FriendViewController.swift */; };
 		1A8FF3AA220DF66A00D85871 /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8FF3A9220DF66A00D85871 /* TextTableViewCell.swift */; };
 		1A8FF3AC220E00BF00D85871 /* Int.TimeZoneFormating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8FF3AB220E00BF00D85871 /* Int.TimeZoneFormating.swift */; };
+		1AA21AFA2212471C0026760F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA21AF92212471C0026760F /* Coordinator.swift */; };
+		1AA21AFC221247750026760F /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA21AFB221247750026760F /* MainCoordinator.swift */; };
+		1AA21AFE221247FF0026760F /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA21AFD221247FF0026760F /* Storyboarded.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		1A8FF3A7220DF2F900D85871 /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
 		1A8FF3A9220DF66A00D85871 /* TextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
 		1A8FF3AB220E00BF00D85871 /* Int.TimeZoneFormating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.TimeZoneFormating.swift; sourceTree = "<group>"; };
+		1AA21AF92212471C0026760F /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		1AA21AFB221247750026760F /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		1AA21AFD221247FF0026760F /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,9 @@
 				1A8FF38C220DEDAF00D85871 /* Assets.xcassets */,
 				1A8FF38E220DEDAF00D85871 /* LaunchScreen.storyboard */,
 				1A8FF391220DEDAF00D85871 /* Info.plist */,
+				1AA21AF92212471C0026760F /* Coordinator.swift */,
+				1AA21AFB221247750026760F /* MainCoordinator.swift */,
+				1AA21AFD221247FF0026760F /* Storyboarded.swift */,
 			);
 			path = FriendZone;
 			sourceTree = "<group>";
@@ -210,11 +219,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A8FF3A8220DF2F900D85871 /* FriendViewController.swift in Sources */,
+				1AA21AFC221247750026760F /* MainCoordinator.swift in Sources */,
 				1A8FF3A6220DEF4300D85871 /* Friend.swift in Sources */,
 				1A8FF388220DEDAE00D85871 /* ViewController.swift in Sources */,
 				1A8FF3AC220E00BF00D85871 /* Int.TimeZoneFormating.swift in Sources */,
+				1AA21AFE221247FF0026760F /* Storyboarded.swift in Sources */,
 				1A8FF386220DEDAE00D85871 /* AppDelegate.swift in Sources */,
 				1A8FF3AA220DF66A00D85871 /* TextTableViewCell.swift in Sources */,
+				1AA21AFA2212471C0026760F /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
